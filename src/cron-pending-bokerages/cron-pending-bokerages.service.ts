@@ -9,7 +9,7 @@ export class CronPendingBokeragesService {
   runEvery5Seconds()  {
    console.log('Every 5 seconds');
    this.httpService.get<any>('https://api.github.com/users/wagnerww')
-   .subscribe((vai) => {console.log('vai', vai)});
+   .subscribe((vai) => {console.log('vai mundice', vai)});
   }
 
 
